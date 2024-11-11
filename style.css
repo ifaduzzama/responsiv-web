@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+
+}
+h1,h2,h3,h4,h5,h6{
+   font-size: "Itim";      
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+nav.logo img{
+    font-size: 30px;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color:green;
+}
+.surs{
+display: flex;
+align-items: center;
+}
+.surs i{
+color: white;
+margin: 0 30px;
+font-size: 30px;
+transition: 0.3s;
+}
+.surs i:hover{
+    color: green;
+}
+.surs button {
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background:transparent;
+    border: 2px solid white;
+   transition: 0.3s;
+}
+.surs button:hover{
+    background-color:darkgreen;
+    opacity: 1;
+}
+.surs button a{
+     font-size: 20px; 
+     color: white;
+     text-decoration: none;
+}
+/* conten */
+.conten{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.text h1{
+    font-size: 50px;
+    padding: 0 60px;
+    color: #fff;
+}
+.text p{
+    padding: 0 60px;
+    padding-top: 5px;
+    color: #fff;
+}
+.img-div img{
+    height: 600px;
+}
+/* about */
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.about-text{
+     margin: 0 50px;
+}
+.about-text h2{
+    font-size: 50px;
+    color: white;
+}
+.about-text p{
+    color: white;
+}
+.about a{
+    color: white;
+    font-size: 15px;
+}
+
+.fur-divr{
+
+}
+.div-1{
+    border: 1px solid rgb(27, 22, 22);
+     color: white;
+     height: 130px;
+     width: 300px;
+     padding-top: 15px;
+     padding-left: 10px;
+}
+.div-1 h4{
+    color: orange;
+}
+.div-1 h4 p{
+padding-top: 10px;
+}
+.div-2{
+    color: white;
+    border: 1px solid rgb(27, 22, 22);
+    height: 130px;
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.div-2 h4{
+color: orange;
+}
+
+.fur-div2{}
+
+.div-3{
+    color: white;
+    border: 1px solid rgb(27, 22, 22);
+    height: 130px;
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.div-3 h4{
+    color: orange;
+}
+.div-4{
+    color: white;
+    border: 1px solid rgb(27, 22, 22);
+    height: 130px;
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.div-4 h4{
+    color: orange;
+}
+/* hr */
+.hr h2{
+font-size: 50px;
+color: white;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+/* for-conten */
+.for-conten{
+    background-color: black;
+}
+.terr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.terr-text{
+    color: white;
+}
+.terr a{
+    color: white;
+}
+
+.terr-img img{
+    width: 800px;
+}
+
+/* but */
+.but {
+    text-align: center;
+    padding-top: 35px;
+    background-color: black;
+}
+.but button{
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: 3px solid rgb(237, 111, 7);
+    color: rgb(237, 111, 7);
+    background-color: transparent;
+    font-size: 20px;
+}
+/* ------------------------------------------------------ */
+@media only screen and (max-width: 1200px){
+body{
+    width: 100%;
+}
+nav ul li a{
+display: none;
+}
+.text h1{
+    font-size: 37px;
+}
+.text p{
+    font-size: 20px;
+}
+.img-div img{
+    height: 400px;
+    padding-right: 20px;
+}
+.terr{}
+.terr-text h2{
+font-size: 30px;
+padding-bottom: 5px;
+}
+.terr-text p{
+    font-size: 20px;
+}
+.terr-img img{
+width: 600px;
+}
+}
+@media only screen and (max-width: 992px){
+body{
+    
+}
+.about{
+  display: block;  
+  
+}
+.about-text{
+ text-align: center;  
+}
+.hr h2{
+padding-left: 20px;
+}
+.fur-divr{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.for-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terr{
+    
+}
+.terr-text h2{
+
+}
+.terr-img img{
+    width: 400px;
+}
+}
+
+@media only screen and (max-width: 868px){
+.text h1{
+font-size: 30px;
+}
+.text p{
+    font-size: 20px;
+}
+.img-div img{
+    height: 300px;
+}
+.about-text h2{
+    font-size: 40px;
+}
+.hr h2{
+    font-size: 40px;
+}
+.terr-text h2{
+    font-size: 25px;
+    padding-bottom: 3px;
+}
+}
+@media only screen and (max-width: 768px) {
+    .text h1{
+        font-size: 29px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .img-div img{
+    height: 250px;
+    }
+    .about-text h2{
+        font-size: 35px;
+    }
+    .ht h2{
+        font-size: 30px;
+    }
+.terr-text h2{
+
+}
+.terr-img img{
+    width: 280px;
+    height: 200px;
+}
+}
+@media only screen and (max-width: 600px){
+
+.conten{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}    
+.text h1{
+    font-size: 40px;
+}
+nav .logo img{
+    height: 50px;
+}
+.surs i{
+    font-size: 25px;
+}
+ .surs button {
+ width: 90px;
+ padding-bottom: 2px;
+ }
+ .surs button a{
+    font-size: 15px;
+     }
+.text p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.img-div img{
+    padding-top: 20px;
+    width: 500px;
+    height: 300px;
+}
+.terr-text p{
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 500px){
+ .text h1{
+    font-size: 30px;
+    width: 100%;
+ }   
+.img-div img{ 
+
+}
+.fur-divr{
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.for-div2{
+padding-left: 20px;
+padding-right: 20px;   
+}
+.terr{
+    display: block;
+    text-align: center;
+
+}
+.terr-text h2{
+font-size: 30px;
+}
+.terr-text p{
+    font-size: 20px;
+}
+.terr-img img{
+    padding-top:14px;
+    width: 90%;
+    padding-bottom: 15px;
+}
+body{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 375px){
+  body{
+    width: 100%;
+  }  
+}
